@@ -8,3 +8,7 @@ import timer.timer as t
 
 def test_add():
     assert t.add(2, 4) == 6
+
+
+def test_mul():
+    assert t.mul(3, 5) == 15
